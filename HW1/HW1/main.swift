@@ -79,3 +79,23 @@ let middleName = "Radikovich"
 let fullName = surname + name + middleName
 
 print(fullName)
+
+// 5. Задание: Операции с числами
+// Описание: Разработайте программу, которая проводит базовые арифметические операции с числами.
+// Требования:
+// Арифметические операции:
+// Имея два числа, программа вычисляет их сумму, разность, произведение и частное, затем выводит результат каждой операции.
+// Ожидаемый результат: При запуске программы выводятся результаты арифметических операций.
+
+let firstNum: Double = 421
+let secondNum: Double = 32
+
+let difference = firstNum - secondNum
+let sum = firstNum + secondNum
+let multiplicat = firstNum * secondNum
+let division = firstNum / secondNum
+
+print(String(format: "Результат вычитания: %.2f - %.2f = %.2f", firstNum, secondNum, difference))
+print(String(format: "Результат сложения: %.2f + %.2f = %.2f", firstNum, secondNum, sum))
+print(String(format: "Результат умножения: %.2f * %.2f = %.2f", firstNum, secondNum, multiplicat))
+print(String(format: "Результат деления: %.2f / %.2f = %.2f", firstNum, secondNum, division))
